@@ -7,7 +7,6 @@ import javax.naming.PartialResultException;
 
 public class StringCalculatorServiceImpl implements CalculatorService {
 
-	@Override
 	public int Add(String numbers) {
 		// TODO Auto-generated method stub
 		if (numbers == null || numbers.isEmpty()) {

@@ -16,7 +16,6 @@ public class Day04CalculatorServiceImpl implements CalculatorService {
 		return instance;
 	}
 
-	@Override
 	public int Add(String numbers) {
 		// TODO Auto-generated method stub
 		if (numbers == null || numbers.isEmpty()) {
